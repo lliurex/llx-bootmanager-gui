@@ -1,0 +1,38 @@
+{
+  "login.username":{
+  	"message":"Nombre de usuario",
+  	"description":""
+  },
+  "login.password":{
+  	"message":"Contraseña",
+  	"description":""
+  },
+  "login.server":{
+  	"message":"Servidor",
+  	"description":""
+  },
+  "login.go": {
+    "message": "Acceder",
+    "description": ""
+  },
+  "main.instructions":{
+    "message": "Ordena de la lista de la izquierda las opciones de arranque. El primer elemento de la lista será el que arranque por defecto.<br> Aquellos elementos que no se quiera mostrar se arrastrarán a la lista de la derecha.",
+    "description": ""
+  },
+  "main.bootorder":{
+    "message": "Orden de arranque.",
+    "description": ""
+  },
+  "main.available.bootorder":{
+    "message": "Entradas de arranque ocultas",
+    "description": ""
+  },
+  "main.timeout":{
+    "message": "Tiempo de espera:",
+    "description": ""
+  },
+  "main.save":{
+    "message": "Guardar",
+    "description": ""
+  }
+}

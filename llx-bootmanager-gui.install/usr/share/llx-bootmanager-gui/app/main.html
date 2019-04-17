@@ -1,0 +1,110 @@
+<html >
+<!--  http://www.webresourcesdepot.com/free-jquery-ui-themes-collection/ -->
+<head>
+	<meta charset="UTF-8">
+	
+	
+		
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="lib/jquery-ui-1.11.2.custom/jquery-ui.css">
+		
+	<link rel="stylesheet" href="css/main.css">
+		
+	<script type="text/javascript" src="lib/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.xmlrpc.js"></script>
+	<script type="text/javascript" src="lib/jquery-ui-1.11.2.custom/jquery-ui.js"></script>
+
+	<script type="text/javascript" src="lib/i18n.js"></script>
+	<script type="text/javascript" src="i18n/loadlang.js"></script>
+	
+	<!--script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script-->
+
+	
+	<script type="text/javascript" src="js/main.js"></script>
+	
+
+</head>
+
+<body>
+
+<div id="loginFrame">
+	<div id="logintitle">LliureX Network Boot Manager</div>
+	<div id="loginform">
+		
+		<div id="label_username"><script type="text/javascript">document.write(i18n.gettext("login.username"));</script></div>
+		<input type="text" id="input_username"></input>
+	
+		<div id="label_pass"><script type="text/javascript">document.write(i18n.gettext("login.password"));</script></div>
+		<input type="password" id="input_password"></input>
+		
+		<div id="Servidor"><script type="text/javascript">document.write(i18n.gettext("login.server"));</script></div>
+		<input type="text" id="input_server" value="server"></input>
+		<div style="margin-top: 10px; margin-left: 100px;">
+			<button id="LoginButton" class="button" value="login"><script type="text/javascript">document.write(i18n.gettext("login.go"));</script></button>
+		</div>
+	
+	<!--
+	
+		
+		<div id="label_pass"><script>i18n.gettext("login.password");</script></div>
+		<input type="password" id="input_password"></input>
+		
+		<div id="Servidor"><script>i18n.gettext("login.server");</script></div>
+		<input type="text" id="input_server" value="127.0.0.1"></input>
+		<div style="margin-top: 10px; margin-left: 100px;">
+			<button id="LoginButton" class="button" value="login"><script>i18n.gettext("login.go");</script></button>
+		</div>
+	
+	-->
+		
+		
+	</div></div>
+	<div id="msg_err"></div>
+</div>
+
+<div id="MainFrame">
+	<div class="list_explanation">
+	<script type="text/javascript">document.write(i18n.gettext("main.instructions"));</script>	
+	</div>
+	
+	<div id="SortLists">
+		<div id="BootListDiv">
+			<div class="list_title">
+				<script type="text/javascript">document.write(i18n.gettext("main.bootorder"));</script>	
+			</div>
+				<ul id="BootList" class="connectedSortable">
+				</ul>		
+		</div>
+		
+		<div id="AvailableOptionsDiv">
+			<div class="list_title">
+				<script type="text/javascript">document.write(i18n.gettext("main.available.bootorder"));</script>
+			</div>
+				<ul id="AvailableOptions" class="connectedSortable">	
+				</ul>
+			
+		</div>
+	</div>
+	
+
+	<div id="timer">
+		<p>
+		<label for="time">
+			<script type="text/javascript">document.write(i18n.gettext("main.timeout"));</script>	
+		</label>
+		<input type="text" id="time" readonly style="border:0; color:#2573eb; font-weight:bold;">
+		</p>
+		<div id="slider-range-min"></div>
+		
+	</div>
+	<button class="btn btn-success" id="btSave">
+		<script type="text/javascript">document.write(i18n.gettext("main.save"));</script>	
+	</button>
+
+</div>
+	
+
+
+
+</body>
+</html>

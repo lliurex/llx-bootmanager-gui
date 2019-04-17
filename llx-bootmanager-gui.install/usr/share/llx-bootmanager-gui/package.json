@@ -1,0 +1,29 @@
+{
+  "name": "llx-bootmanager-client",
+  "main": "app/main.html",
+  "window": {
+    "title": "LliureX Net Boot Manager",
+   /* "icon": "/usr/share/icons/lmd-boot-manager.png",*/
+    "width": 400,
+    "height": 300,
+    "frame": true,
+    "toolbar":false,
+    "single-instance":false /*,
+    /*"transparent": true,*/
+    /*"kiosk":true
+    /*"transparent": true/*,
+    "as_desktop": true/*,
+    /*"fullscreen": true*/
+    },
+  "webkit": {
+    "plugin": true
+  },
+  "chromium-args": "--ignore-certificate-errors --user-data-dir='/tmp/.chromium_open'"
+  
+  /*
+  https://github.com/rogerwang/node-webkit/wiki/Manifest-format
+  http://src.chromium.org/svn/trunk/src/content/public/common/content_switches.cc
+  */
+  
+  
+}

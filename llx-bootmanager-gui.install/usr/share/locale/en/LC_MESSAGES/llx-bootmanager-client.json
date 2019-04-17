@@ -1,0 +1,38 @@
+{
+  "login.username":{
+  	"message":"Username",
+  	"description":""
+  },
+  "login.password":{
+  	"message":"Password",
+  	"description":""
+  },
+  "login.server":{
+  	"message":"Server",
+  	"description":""
+  },
+  "login.go": {
+    "message": "Login",
+    "description": ""
+  },
+  "main.instructions":{
+    "message": "Order yout boot preferences in the list on the left. First of them will be the default boot option.<br>If you want to hide any item, move it to the right list.",
+    "description": ""
+  },
+  "main.bootorder":{
+    "message": "Boot Order",
+    "description": ""
+  },
+  "main.available.bootorder":{
+    "message": "Hiden entries to boot",
+    "description": ""
+  },
+  "main.timeout":{
+    "message": "Timeout:",
+    "description": ""
+  },
+  "main.save":{
+    "message": "Save",
+    "description": ""
+  }
+}

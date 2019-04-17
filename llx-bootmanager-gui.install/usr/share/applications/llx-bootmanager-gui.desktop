@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=LliureX Network Boot Manager
+Name[es]=Gestor de arranque por red LliureX
+Name[ca_ES.UTF-8@valencia]=Gestor d'Arranc per xarxa de LliureX
+
+Comment=iPXE Boot Manager
+Comment[es]=Gestor del menú de arranque por iPXE
+Comment[ca_ES.UTF-8@valencia]=Gestor del menú d'arranc per iPXE
+Exec=/usr/bin/nw0.21 /usr/share/llx-bootmanager-gui
+Terminal=false
+Icon=/usr/share/icons/lmd-boot-manager.svg
+Type=Application
+Categories=LliureX-Administration;
