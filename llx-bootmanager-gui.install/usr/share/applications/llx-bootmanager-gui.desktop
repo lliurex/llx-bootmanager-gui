@@ -9,6 +9,6 @@ Comment[es]=Gestor del menú de arranque por iPXE
 Comment[ca_ES.UTF-8@valencia]=Gestor del menú d'arranc per iPXE
 Exec=/usr/bin/nw0.21 /usr/share/llx-bootmanager-gui
 Terminal=false
-Icon=/usr/share/icons/lmd-boot-manager.svg
+Icon=lmd-boot-manager.png
 Type=Application
 Categories=LliureX-Administration;
