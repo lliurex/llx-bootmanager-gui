@@ -1,3 +1,9 @@
+llx-bootmanager-gui (0.5.9) bionic; urgency=medium
+
+  * Changed icon path in desktop file
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 24 Jul 2019 09:59:27 +0200
+
 llx-bootmanager-gui (0.5.8) bionic; urgency=high
 
   * First release for bionic 
