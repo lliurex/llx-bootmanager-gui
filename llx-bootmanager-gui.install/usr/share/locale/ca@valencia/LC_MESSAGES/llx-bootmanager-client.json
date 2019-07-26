@@ -1,0 +1,38 @@
+{
+  "login.username": {
+    "message": "Nom d'usuari",
+    "description": ""
+  },
+  "login.password": {
+    "message": "Contrasenya",
+    "description": ""
+  },
+  "login.server": {
+    "message": "Servidor",
+    "description": ""
+  },
+  "login.go": {
+    "message": "Accedix",
+    "description": ""
+  },
+  "main.instructions":{
+    "message": "Ordeneu de la llista de l'esquerra les opcions d'arrancada. El primer element de la llista serà el que arranque per defecte.<br> Els elements que no vulgueu que es mostren podeu arrossegar-los a la llista de la dreta.",
+    "description": ""
+  },
+  "main.bootorder":{
+    "message": "Ordre d'arrancada",
+    "description": ""
+  },
+  "main.available.bootorder":{
+    "message": "Entrades del menú ocultes",
+    "description": ""
+  },
+  "main.timeout":{
+    "message": "Temps d'espera:",
+    "description": ""
+  },
+  "main.save":{
+    "message": "Guarda",
+    "description": ""
+  }
+}
