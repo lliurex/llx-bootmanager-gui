@@ -1,3 +1,9 @@
+llx-bootmanager-gui (0.5.10) bionic; urgency=medium
+
+  * Non-maintainer upload.
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 26 Jul 2019 11:37:49 +0200
+
 llx-bootmanager-gui (0.5.9) bionic; urgency=medium
 
   * Changed icon path in desktop file
