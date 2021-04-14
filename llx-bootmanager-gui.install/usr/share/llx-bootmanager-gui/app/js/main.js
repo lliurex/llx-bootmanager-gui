@@ -20,7 +20,7 @@ LlxNetBootManagerClient.prototype.login = function(username, password, server){
 	    params: [username, password],
 	    success: function(response,status,jqXHR){
 		    $("body").removeClass("CursorWaiting");
-		    groups=response[0][1];
+		    groups=response[0].return[1];
 		    //if ((groups.indexOf('adm')!=-1)||(groups.indexOf('admins')!=-1)||(groups.indexOf('teachers')!=-1)) {
 		    if ((groups.indexOf('adm')!=-1)||(groups.indexOf('admins')!=-1)) {			    
 			    // TO DO....
@@ -58,7 +58,7 @@ LlxNetBootManagerClient.prototype.showTimer = function(){
 			   $(function() {
 				 $( "#slider-range-min" ).slider({
 					range: "min",
-					value: (response/10),
+					value: (response[0].return/10),
 					min: 0,
 					step: 5,
 					max: 120,
@@ -256,7 +256,7 @@ LlxNetBootManagerClient.prototype.showLists = function(){
 		 methodName: 'getBootList',
 		 params: ["","LlxBootManager"],
 		 success: function(response,status,jqXHR){
-			 self.AvailableList=response[0];
+			 self.AvailableList=response[0].return;
 			 self.sortList();
 			 },
 				 error: function(jqXHR, status, error) {
@@ -270,7 +270,7 @@ LlxNetBootManagerClient.prototype.showLists = function(){
 		 methodName: 'getBootOrder',
 		 params: ["","LlxBootManager"],
 		 success: function(response,status,jqXHR){
-			 self.BootOrder=response[0];
+			 self.BootOrder=response[0].return;
 			 self.sortList();
 			 },
 				 error: function(jqXHR, status, error) {
