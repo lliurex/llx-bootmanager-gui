@@ -1,0 +1,13 @@
+Source: llx-bootmanager-gui
+Section: misc
+Priority: optional
+Maintainer: LliureX Team <lliurex@gva.es>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.5
+
+Package: llx-bootmanager-gui
+Depends: ${misc:Depends}, nwjs0.21 
+Architecture: all
+Description: Network Boot Manager GUI.
+ GUI for LliureX Network Boot Manager.
+ .
